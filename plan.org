@@ -1,0 +1,17 @@
+#+TITLE: plan
+#+AUTHOR: ellis
+#+DESCRIPTION: game plan for the immediate future
+#+SEQ_TODO: TODO MAYBE WIP | DONE
+* WIP build demo
+:LOGBOOK:
+- State "WIP"       from              [2023-05-06 Sat 18:32]
+:END:
+
+* TODO complete bk
+* MAYBE complete org-notion?
+:LOGBOOK:
+- State "MAYBE"       from              [2023-05-06 Sat 18:32]
+:END:
+* TODO develop cloud service components
+* TODO deploy lab
+* TODO develop market research plan

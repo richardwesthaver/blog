@@ -1,0 +1,22 @@
+#+TITLE: AWS
+#+LOCATION: [[https://github.com/awslabs/aws-sdk-rust]]
+#+AUTHOR: ellis
+* EC2
+** Images
+*** recipes
+**** worker
+**** devbox
+- packages
+  - sbcl
+  - emacs or neovim
+    - doom? (opt)
+  - rustup
+  - python
+  - llvm/clang
+  - hg
+  - cargo
+    - [[https://github.com/nushell/nushell][nushell]]
+    - ripgrep
+**** service
+**** gateway
+**** hypervisor

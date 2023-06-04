@@ -1,0 +1,29 @@
+#+TITLE: lab
+#+AUTHOR: ellis
+#+LOCATION: New London, CT
+* gateway
+** NFS/SSHFS/S3 compat storage
+*** media
+*** docs
+*** dev
+*** archive
+*** lfs
+*** x
+*** y
+*** z
+** job scheduler
+*** run
+**** web-deploy
+**** web-compile
+*** stop
+*** schedule
+** KV store
+- RocksDB
+*** get
+*** set
+** SQL store
+- postgres
+- sqlite
+*** query
+* nodes
+- on-demand internal lab computers
