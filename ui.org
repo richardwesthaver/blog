@@ -1,0 +1,22 @@
+#+TITLE: ui
+#+LOCATION: https://lab.rwest.io/otom8/notes
+#+AUTHOR: ellis
+* Overview
+UI is a hot topic in the programming world. Nowadays it is expected
+that production apps have multiple 'frontends' each supporting a
+certain kind of UI. Here are some of the ones we care about:
+- Web GUI
+  Runs in a web browser
+- Native GUI
+  Runs natively using host OS or graphics hardware directly
+  - OS-based
+  - bare-metal
+- CLI
+  Runs at a shell prompt
+- Modular \\
+  Runs a combination of the above types, usually configurable at
+  run-time and with a separate backend service.
+
+Our goal is to establish footholds in these areas of UI development
+with our in-house libraries. We do this by creating a generic UI
+protocol and implementing it for the various types above.
