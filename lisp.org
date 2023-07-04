@@ -1,8 +1,0 @@
-#+TITLE: Lisp
-
-These notes pertain to Lisp. More specifically, ANSI Common Lisp in
-most places.
-
-- https://github.com/lispnik/iup/ - doesn't support MacOS yet, looks
-  cool though
-  - what we really need is wasm compiler.. TBD
