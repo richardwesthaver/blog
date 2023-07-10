@@ -1,0 +1,20 @@
+#+TITLE: lang
+#+DESCRIPTION: programming languages
+#+FILETAGS: lang
+* Concatenative
+** Factor                                                           :factor:
+- [2023-07-04 Tue]
+  Factor is a cool concatenative lang but unfortunately the C interface
+  (vm/master.h) no longer exists on the master branch.
+** Joy                                                                 :joy:
+
+*** https://hypercubed.github.io/joy/html/j02maf.html
+
+*** [[https://builds.openlogicproject.org/content/incompleteness/arithmetization-syntax/arithmetization-syntax.pdf][arithmetization of syntax]]
+* Lisp                                                                 :lisp:
+These notes pertain to Lisp. More specifically, ANSI Common Lisp in
+most places.
+
+- https://github.com/lispnik/iup/ - doesn't support MacOS yet, looks
+  cool though
+  - what we really need is wasm compiler.. TBD

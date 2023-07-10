@@ -1,0 +1,15 @@
+#+TITLE: virt
+
+A place for all things virtualization - this is specifically geared
+towards various hardware and machine emulators.
+* QEMU
+* KVM
+* Hyper-V
+* Firecracker
+* Docker
+* Vagrant
+* LXC
+* LXD
+* containerd
+* systemd-nspawn
+* VirtualBox
