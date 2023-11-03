@@ -1,3 +1,21 @@
 #+TITLE: hello world
-Greetings stranger, and *Welome* to my first post on behalf of _The
-Compiler Company_!
+
+Hello world,
+
+My name is Richard, and a few weeks ago I registered my first company:
+/The Compiler Company, LLC/.
+
+If we've spoken recently I may have mentioned it, but I certainly
+didn't communicate my intentions well. Now is the time to share those
+intentions.
+
+* Guided Tour
+
+* Philosophy
+** Computers
+** Compilers
+** Companies
+* The Big Idea
+* Next Steps
+** Code
+** Services
