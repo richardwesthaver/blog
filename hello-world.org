@@ -1,4 +1,9 @@
 #+TITLE: hello world
+#+AUTHOR: Richard Westhaver <ellis@rwest.io>
+#+OPTIONS: ^:nil toc:nil num:nil html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/new.min.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/terminal.css"/>
 
 If we've spoken recently I may have mentioned this new venture, but I
 certainly didn't communicate my intentions well. Now is the time to
@@ -45,13 +50,13 @@ introduce myself --
 + UConn graduate 2016 (economics+philosophy)
 
 For most of my life, music has been my muse. I played piano and drums
-in the school bands, played gigs in the local scene and in college
-started gravitating towards digital recording, sound design, and the
-process of making music. I started to recognize all the little things
-about music that made it so attractive to me: Composition, Rhythm,
-Design, Creativity... All these fundamental concepts, which weave
-between eachother to produce a piece of music. It's something I started
-to think about deeply and apply to other mediums -- most importantly,
+in the school bands, gigs in the local scene and in college started
+gravitating towards digital recording, sound design, and the process
+of making music. I started to recognize all the little things about
+music that made it so attractive to me: Composition, Rhythm, Design,
+Creativity... All these fundamental concepts, which weave between
+eachother to produce a piece of music. It's something I started to
+think about deeply and apply to other mediums -- most importantly,
 computers.
 
 Programming, in many ways is music to computers. Programmers /are/
@@ -86,10 +91,23 @@ want to make money and participate in the industry. I want to work for
 myself.
 
 * Philosophy
+I wasn't a Computer Science major at UConn. The only programming I did
+in a classroom setting was in a statistics class in a program called
+Stata. As is the case with other self-taught hackers my idea of
+computer systems and how they should operate is probably worth
+explaining to avoid confusion.
+
+I call this section /Philosophy/, because I want you to question
+it. Philosophy is the way things are from the leisure of a single
+man's armchair, so I encourage you to pick it apart for yourself.
 ** Computers
 ** Compilers
 ** Companies
 * Next Steps
-We have a long way to go. 
-** Code
-** Services
+We have a long way to go. The important thing is to keep up the
+momentum. Before the start of 2024 you can expect another update on
+some of the projects below.
+** the.compiler.company
+** infra
+** core
+** nas-t
