@@ -3,7 +3,7 @@
 #+OPTIONS: ^:nil toc:nil num:nil
 #+HTML_HEAD: <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/new.min.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/terminal.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/night.css"/>
 If we've spoken recently I may have mentioned this new venture I've
 been working on. Now is the time to elaborate on what I've been up to,
 and why.
@@ -23,26 +23,52 @@ I (Richard Westhaver) am the sole owner and operator and will probably
 keep it that way for quite some time. My intention is to operate at
 minimal cost while I perform industry research and develop prototypes.
 
+To support the company's purpose, I am developing a suite of free and
+open-source software which is specifically designed for bootstrapping
+and operating =companies=.
 
+** Software
 
-/The Compiler Company/ provides two things on paper:
-1. free and open-source software
-2. professional consulting services
+The software provided by /The Compiler Company/ is a powerful
+development environment. It is the catalyst of engineering for every
+other software component I build and reflects precisely how I believe
+software should be developed.
 
-The software is made publicly available without restriction and anyone
-can pay for paid professional consultations/training/etc.
+As a whole, I optimize for the following features in my environment:
+- early adoption :: integrate research, protocols, libraries, and
+  hardware features from leading research orgs faster than anyone else
+- rapid development :: interaction, code introspection, tooling, and
+  automation built for prototyping at massive scale
+- power :: using our environment should feel like cheating - macros,
+  DSLs, and unmatched hackability
 
-The /core/ of our software suite is an insanely powerful development
-environment built from scratch. It is the catalyst of engineering for
-every other software component I build and reflects how I believe
-software should be developed /today/.
+*** Languages
+/The Compiler Company/ is above all, a =Lisp Company=. The most
+powerful software requires the most powerful language.
 
-The suite further contains a mixed bag of plugins, extensions,
-libraries, and applications intended for software development in
-addition to /all/ vendored dependencies. This setup gives us complete
-control over every possible piece of code we encounter in the systems
-we operate.
+Lisp isn't enough though. =Rust= is our imperative language of choice
+at the time of writing and generally suited for system-level software
+components.
 
+We make use of the Steel Bank Common Lisp compiler (SBCL) and the
+nightly Rust compiler toolchain.
+
+*** Operating System Support
+/The Compiler Company/ is a Linux Company. There may be minimal
+support for Darwin-based systems, but Microsoft Windows systems will
+never be supported by our software.
+
+One of the /anti-goals/ of our software is ~portability~. For all of
+the features we optimize for, portability becomes a burden, especially
+with closed-source OS kernels. We are also explicitly driven to reduce
+consumer dependence on these closed-source systems, especially in a
+distributed network. They are simply unfit for use with the software
+we produce.
+
+*** Core
+** Services
+
+** Companies
 * Next Steps
 We have a long way to go. The important thing is to keep up the
 momentum. Before the start of 2024 you can expect another update on
