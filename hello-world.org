@@ -1,27 +1,31 @@
 #+TITLE: hello world
 #+AUTHOR: Richard Westhaver <ellis@rwest.io>
-#+OPTIONS: ^:nil toc:nil num:nil html-postamble:nil
-#+HTML_HEAD: <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+#+OPTIONS: ^:nil toc:nil num:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/new.min.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://packy.rwest.io/style/css/terminal.css"/>
-
-If we've spoken recently I may have mentioned this new venture, but I
-certainly didn't communicate my intentions well. Now is the time to
-elaborate.
+If we've spoken recently I may have mentioned this new venture I've
+been working on. Now is the time to elaborate on what I've been up to,
+and why.
 
 * The Compiler Company
-
 The name is a play on the phrase /Compiler Collection/, as in [[https://gcc.gnu.org/][GNU
 Compiler Collection (GCC)]] and emphasizes my approach to
 problem-solving involving compiler technologies.
 
 I recently registered as an LLC, but the purpose of the company is
-that of a company incubator, or /compiler/ if you will. In other
-words, I intend for /The Compiler Company, LLC/ to be a hub for
+that of a company incubator, or /company compiler/ if you will. In
+other words, I intend for /The Compiler Company, LLC/ to be a hub for
 developing various interconnected products and services which can be
 operated and managed independently of each other.
 
-/The Compiler Company/ technically provides two things:
+I (Richard Westhaver) am the sole owner and operator and will probably
+keep it that way for quite some time. My intention is to operate at
+minimal cost while I perform industry research and develop prototypes.
+
+
+
+/The Compiler Company/ provides two things on paper:
 1. free and open-source software
 2. professional consulting services
 
@@ -39,70 +43,6 @@ addition to /all/ vendored dependencies. This setup gives us complete
 control over every possible piece of code we encounter in the systems
 we operate.
 
-* About Me
-
-Before introducing my company I think it's important to properly
-introduce myself --
-
-+ Richard Westhaver (ellis@rwest.io)
-+ 29-years-old (he/him)
-+ living in CT
-+ UConn graduate 2016 (economics+philosophy)
-
-For most of my life, music has been my muse. I played piano and drums
-in the school bands, gigs in the local scene and in college started
-gravitating towards digital recording, sound design, and the process
-of making music. I started to recognize all the little things about
-music that made it so attractive to me: Composition, Rhythm, Design,
-Creativity... All these fundamental concepts, which weave between
-eachother to produce a piece of music. It's something I started to
-think about deeply and apply to other mediums -- most importantly,
-computers.
-
-Programming, in many ways is music to computers. Programmers /are/
-musicians. This has been my approach ever since I started learning the
-basics of Python. After college I began tinkering with Arduino boards,
-learning about basic NLP models, and building digital synthesizers
-with Max/MSP. I eventually got a job at a SaaS company in an Agile
-product support role which was the perfect opportunity for me. I
-learned all about web applications, software lifecycles, APIs, and the
-usual cloud infrastructure. In a matter of months I knew what I wanted
-to do for the rest of my life.
-
-For the next few years I worked all day and programmed all night. I
-became fluent in all things software and was in this sort of crazy
-cycle, but loved it. Around early 2019 I started working closely with
-a small group of exceptionally talented developers. We were delivering
-massive projects for our clients while developing our own R&D
-department.
-
-One day, I was unexpectedly laid off. I would be lying if I didn't
-admit it was absolutely /soul-crushing/. It was at the beginning of
-COVID and there was a huge corporate shake-up (brand new C-suite), but
-for someone like me it's impossible not to internalize that and wonder
-why. This was a difficult time in my life and it took me quite some
-time to get back on my feet.
-
-On the bright side, I did get to spend some time thinking about /how/
-I want to program. When you're working 60h+ weeks at a software
-company, this is something you can rarely afford if at all. I also
-made an important decision on where I want my career to go - on how I
-want to make money and participate in the industry. I want to work for
-myself.
-
-* Philosophy
-I wasn't a Computer Science major at UConn. The only programming I did
-in a classroom setting was in a statistics class in a program called
-Stata. As is the case with other self-taught hackers my idea of
-computer systems and how they should operate is probably worth
-explaining to avoid confusion.
-
-I call this section /Philosophy/, because I want you to question
-it. Philosophy is the way things are from the leisure of a single
-man's armchair, so I encourage you to pick it apart for yourself.
-** Computers
-** Compilers
-** Companies
 * Next Steps
 We have a long way to go. The important thing is to keep up the
 momentum. Before the start of 2024 you can expect another update on
