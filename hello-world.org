@@ -1,38 +1,32 @@
 {{{header(hello world,
 Richard Westhaver,
-ellis@rwest.io,
-Introducing The Compiler Company)}}}
-If we've spoken recently I may have mentioned this new venture I've
-been working on. Now is the time to elaborate on what I've been up to,
-and why.
+ellis@rwest.io)}}}
+
+My name is Richard. I'm a 29yo, US-based computer programmer and today
+marks the birth of my first company: /The Compiler Company/.
+
 
 * The Compiler Company
-The name is a play on the phrase /Compiler Collection/, as in [[https://gcc.gnu.org/][GNU
-Compiler Collection (GCC)]] and emphasizes my approach to
-problem-solving involving compiler technologies.
+I intend for /The Compiler Company/ to be a hub for developing various
+interconnected products and services based on cutting-edge software
+and research.
 
-I recently registered as an LLC, but the purpose of the company is
-that of a company incubator, or /company compiler/ if you will. In
-other words, I intend for /The Compiler Company, LLC/ to be a hub for
-developing various interconnected products and services which can be
-operated and managed independently of each other.
-
-I (Richard Westhaver) am the sole owner and operator and will probably
-keep it that way for quite some time. My intention is to operate at
-minimal cost while I perform industry research and develop prototypes.
-
-To support the company's purpose, I am developing a suite of free and
-open-source software which is specifically designed for bootstrapping
-and operating =companies=.
+I'm the sole owner and operator and will probably keep it that way for
+quite some time. My intention is to operate at minimal cost while I
+build prototypes.
 
 ** Software
 
-The software provided by /The Compiler Company/ is a powerful
-development environment. It is the catalyst of engineering for every
-other software component I build and reflects precisely how I believe
-software should be developed.
+The software provided by /The Compiler Company/ is a powerful but
+opinionated programming environment. It consists of a GNU/Linux
+kernel, some vendored programs and libraries, and a suite of custom
+software.
 
-As a whole, I optimize for the following features in my environment:
+The software is modular by design. You can pick and choose which
+components to embed in your own projects and you are encouraged to
+modify any part of the system to meet your goals. 
+
+In general, our software is designed for:
 - early adoption :: integrate research, protocols, libraries, and
   hardware features from leading research orgs faster than anyone else
 - rapid development :: interaction, code introspection, tooling, and
@@ -40,9 +34,9 @@ As a whole, I optimize for the following features in my environment:
 - power :: using our environment should feel like cheating - macros,
   DSLs, and unmatched hackability
 
-*** Languages
+*** Langs
 /The Compiler Company/ is above all, a =Lisp Company=. The most
-powerful software requires the most powerful language.
+powerful software requires the most powerful code.
 
 Lisp isn't enough though. =Rust= is our imperative language of choice
 at the time of writing and generally suited for system-level software
@@ -51,10 +45,10 @@ components.
 We make use of the Steel Bank Common Lisp compiler (SBCL) and the
 nightly Rust compiler toolchain.
 
-*** Operating System Support
-/The Compiler Company/ is a Linux Company. There may be minimal
+*** OS
+/The Compiler Company/ is a =Linux Company=. There may be minimal
 support for Darwin-based systems, but Microsoft Windows systems will
-never be supported by our software.
+never be officially supported.
 
 One of the /anti-goals/ of our software is ~portability~. For all of
 the features we optimize for, portability becomes a burden, especially
@@ -62,16 +56,12 @@ with closed-source OS kernels. We are also explicitly driven to reduce
 consumer dependence on these closed-source systems, especially in a
 distributed network. They are simply unfit for use with the software
 we produce.
-
-*** Core
-** Services
-
-** Companies
+**** TODO Windows Subsystem for Linux (WSL)
+- State "TODO"       from              [2023-11-26 Sun 19:18]
 * Next Steps
 We have a long way to go. The important thing is to keep up the
 momentum. Before the start of 2024 you can expect another update on
-some of the projects below.
-** the.compiler.company
-** infra
-** core
-** nas-t
+the projects below.
+** [[https://compiler.company/docs/core][core]]
+** [[https://compiler.company/docs/infra][infra]]
+** [[https://compiler.company/docs/nas-t][nas-t]]
