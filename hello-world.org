@@ -1,63 +1,123 @@
 {{{header(hello world,
 Richard Westhaver,
 ellis@rwest.io)}}}
+#+options: toc:t
+* Introduction
+Hello World.
 
-My name is Richard. I'm a 29yo, US-based computer programmer and today
-marks the birth of my first company: /The Compiler Company/.
+Today I would like to share something I've been working on for the
+past few months, but has been on my mind for a few years.
 
+** On Computers
+First, let's talk about computers. (beep boop)
+
+If you've met me in the past decade, you probably know that I am
+extremely passionate about computers. Let me first explain why.
+
+On the most basic level computers are little (or big) machines that
+can be programmed to do things, or /compute/ if we're being
+technical.[fn:1]
+
+They host and provide access to the Internet, which is a pretty big
+thing, but they do little things too like unlock your car door and
+tell your microwave to beep at you. They solve problems. Big or small.
+
+They're also /everywhere/ - which can be scary to think about, but
+ultimately helps propel us into the future.
+
+There's something pretty cool about that - when you look at the
+essence of computation. There are endless quantities of these machines
+which follow the same basic rules and can be used to solve /real/
+problems.
+
+*** The Programmer
+Now, let us consider the /programmer/. They have power. /real/
+power. They understand the language of computers, can whisper to them
+in various dialects. It can be intimidating to witness until you
+realize how often the programmer says the wrong thing - a bug.
+
+In reality, the programmer has a symbiotic relationship with
+computers. Good programmers understand this relationship well.
+
+#+begin_annecdote
+One day after I got my first job at a software company, I remember
+being on an all-hands meeting due to a client service outage. We had
+some management, our lead devs, product team, and one curious looking
+man who happened to be our lead IT consultant who had just joined. He
+was sitting up on a hotel bed, shirtless, vaping an e-cig, typing
+away in what I can only imagine was a shell prompt.
+
+After several minutes he took a swig from a bottle of Coke and said
+"Node 6 is sick." then a few seconds later our services were
+restored. For the next hour on the call he explained what happened and
+why, but that particular phrase always stuck with me. He didn't say
+Node 6 was down, or had an expired cert - his diagnosis was that /it/
+was /sick/. 
+#+end_annecdote
+
+The more you work closely with computers, the more you start to think
+of them this way. You don't start screaming when the computer does the
+wrong thing, you figure out what's wrong and learn from it. With
+experience, you start to understand the different behaviors of the
+machines you work with. I like to call this /Machine Empathy/.
+
+*** Programs
+I already mentioned bugs - I write plenty of those, but usually I try
+to write /programs/. Programs to me are like poetry. I like to think
+they are for the computer too.
+
+Just like computers, /computer programs/ come in different shapes and
+sizes but in basic terms they are sets of instructions used to control
+a computer.
+
+You can write programs to do anything - when I first started, my
+programs made music. The program was a means to an end. Over time, I
+started to see the program as something much more. I saw it as the
+music itself.
+
+[fn:1] ... perform computations
 
 * The Compiler Company
-I intend for /The Compiler Company/ to be a hub for developing various
-interconnected products and services based on cutting-edge software
-and research.
+Without further ado, I'd like to announce /The Compiler Company,
+LLC/. It is my first venture into the encorporated world but won't be
+my last, because what I'm really building is a company incubator. The
+purpose of /The Compiler Company/ is to /compile/ /companies/.
 
-I'm the sole owner and operator and will probably keep it that way for
-quite some time. My intention is to operate at minimal cost while I
-build prototypes.
+More specifically, I'm writing a software suite which specializes in
+building, operating, and automating companies.
 
-** Software
+The software isn't for everyone - modules will be rewritten
+frequently, code may be terse in places, we use specialized and highly
+customized tools, custom compilers, and rely on advanced CPU and
+storage hardware features. It's for a specific type of person - an
+/operator/ if you will, who uses the library and programs for
+rapid-development of their own programs (or companies).
 
-The software provided by /The Compiler Company/ is a powerful but
-opinionated programming environment. It consists of a GNU/Linux
-kernel, some vendored programs and libraries, and a suite of custom
-software.
+In addition to software, I'm build a robust infrastructure to host our
+services, support our projects, and most importantly - consume
+information.
 
-The software is modular by design. You can pick and choose which
-components to embed in your own projects and you are encouraged to
-modify any part of the system to meet your goals. 
+Something that is missing from many organizations big or large, is an
+effective way to store and access information, even about their own
+org.
 
-In general, our software is designed for:
-- early adoption :: integrate research, protocols, libraries, and
-  hardware features from leading research orgs faster than anyone else
-- rapid development :: interaction, code introspection, tooling, and
-  automation built for prototyping at massive scale
-- power :: using our environment should feel like cheating - macros,
-  DSLs, and unmatched hackability
+It can be difficult problem to solve - usually there's the official
+one, say Microsoft Sharepoint and then the list of unofficial sources
+which becomes tribal corporate hacker knowledge. Maybe the unofficial
+ones are more current, or are annotated nicely, but their very
+existence breaks the system. There's no longer a single source of
+truth.
 
-*** Langs
-/The Compiler Company/ is above all, a =Lisp Company=. The most
-powerful software requires the most powerful code.
+My priority in this department is writing services which process and
+store information from a variety of sources in a distributed knowledge
+graph. The graph can later be queried to access information on-demand.
 
-Lisp isn't enough though. =Rust= is our imperative language of choice
-at the time of writing and generally suited for system-level software
-components.
+My idea of infrastructure is in fact to build my own Cloud. Needless
+to say I don't have an O365 subscription, and wherever possible I'll
+be relying on hardware I have physical access to. I'm not opposed to
+cloud services at large but based on principle I like to think we
+shouldn't be built on them.
 
-We make use of the Steel Bank Common Lisp compiler (SBCL) and the
-nightly Rust compiler toolchain.
-
-*** OS
-/The Compiler Company/ is a =Linux Company=. There may be minimal
-support for Darwin-based systems, but Microsoft Windows systems will
-never be officially supported.
-
-One of the /anti-goals/ of our software is ~portability~. For all of
-the features we optimize for, portability becomes a burden, especially
-with closed-source OS kernels. We are also explicitly driven to reduce
-consumer dependence on these closed-source systems, especially in a
-distributed network. They are simply unfit for use with the software
-we produce.
-**** TODO Windows Subsystem for Linux (WSL)
-- State "TODO"       from              [2023-11-26 Sun 19:18]
 * Next Steps
 We have a long way to go. The important thing is to keep up the
 momentum. Before the start of 2024 you can expect another update on
