@@ -1,127 +1,90 @@
 {{{header(hello world,
 Richard Westhaver,
 ellis@rwest.io)}}}
-#+options: toc:t
+#+options: toc:t h:1
 * Introduction
-Hello World.
+Hello World,
 
-Today I would like to share something I've been working on for the
-past few months, but has been on my mind for a few years.
+I've worked in and around software systems for many years. Throughout
+my journey I've worked with some incredibly capable programmers,
+leaders, sales professionals, and curious minds from all walks of
+life. I've been fortunate to witness some highly effective teams on
+complex projects deliver under impossible constraints. I've also seen
+the other side - where a team isn't effective for one reason or
+another, even on simple problems.
 
-** On Computers
-First, let's talk about computers. (beep boop)
+My work as of late is stemmed from the simple premise that there
+exists an /environment/ in which a team can be highly effective. My
+goal is to find those local optimums in my areas of interest where
+such an environment can be built and /great work/ can be done.
 
-If you've met me in the past decade, you probably know that I am
-extremely passionate about computers. Let me first explain why.
+In my professional experience, it is becoming much more difficult to
+build an /environment/ where people can be effective. There are
+several contributing factors which muddy the waters but it all boils
+down to capabilities and politics.
 
-On the most basic level computers are little (or big) machines that
-can be programmed to do things, or /compute/ if we're being
-technical.[fn:1]
+Your environment must be capable. It must provide everything your team
+needs now and /may/ need in the future. If the environment doesn't
+provide something, you need to provide all building materials for it -
+/even if you don't know what you're building yet/.
 
-They host and provide access to the Internet, which is a pretty big
-thing, but they do little things too like unlock your car door and
-tell your microwave to beep at you. They solve problems. Big or small.
-
-They're also /everywhere/ - which can be scary to think about, but
-ultimately helps propel us into the future.
-
-There's something pretty cool about that - when you look at the
-essence of computation. There are endless quantities of these machines
-which follow the same basic rules and can be used to solve /real/
-problems.
-
-*** The Programmer
-Now, let us consider the /programmer/. They have power. /real/
-power. They understand the language of computers, can whisper to them
-in various dialects. It can be intimidating to witness until you
-realize how often the programmer says the wrong thing - a bug.
-
-In reality, the programmer has a symbiotic relationship with
-computers. Good programmers understand this relationship well.
-
-#+begin_annecdote
-One day after I got my first job at a software company, I remember
-being on an all-hands meeting due to a client service outage. We had
-some management, our lead devs, product team, and one curious looking
-man who happened to be our lead IT consultant who had just joined. He
-was sitting up on a hotel bed, shirtless, vaping an e-cig, typing
-away in what I can only imagine was a shell prompt.
-
-After several minutes he took a swig from a bottle of Coke and said
-"Node 6 is sick." then a few seconds later our services were
-restored. For the next hour on the call he explained what happened and
-why, but that particular phrase always stuck with me. He didn't say
-Node 6 was down, or had an expired cert - his diagnosis was that /it/
-was /sick/. 
-#+end_annecdote
-
-The more you work closely with computers, the more you start to think
-of them this way. You don't start screaming when the computer does the
-wrong thing, you figure out what's wrong and learn from it. With
-experience, you start to understand the different behaviors of the
-machines you work with. I like to call this /Machine Empathy/.
-
-*** Programs
-I already mentioned bugs - I write plenty of those, but usually I try
-to write /programs/. Programs to me are like poetry. I like to think
-they are for the computer too.
-
-Just like computers, /computer programs/ come in different shapes and
-sizes but in basic terms they are sets of instructions used to control
-a computer.
-
-You can write programs to do anything - when I first started, my
-programs made music. The program was a means to an end. Over time, I
-started to see the program as something much more. I saw it as the
-music itself.
-
-[fn:1] ... perform computations
+To build a capable environment you need to discard politics from your
+decision-making process. In other words, drop the ego. This requires a
+high degree of introspection. It's hard enough for individuals, let
+alone an entire team or company. In the world of software we tend to
+have two camps - the pro-dev who prefers ergonomic but proprietary
+tools and the foss-dev who prefers clunky but open-source
+alternatives. You can't limit your environment based on the camp you
+align with.
 
 * The Compiler Company
 Without further ado, I'd like to announce /The Compiler Company,
-LLC/. It is my first venture into the encorporated world but won't be
-my last, because what I'm really building is a company incubator. The
-purpose of /The Compiler Company/ is to /compile/ /companies/.
+LLC/. The purpose of /The Compiler Company/ is to /compile/
+/companies/.
 
 More specifically, I'm writing a software suite which specializes in
-building, operating, and automating companies.
+building environments.
 
 The software isn't for everyone - modules will be rewritten
-frequently, code may be terse in places, we use specialized and highly
-customized tools, custom compilers, and rely on advanced CPU and
-storage hardware features. It's for a specific type of person - an
-/operator/ if you will, who uses the library and programs for
-rapid-development of their own programs (or companies).
+frequently, code may be terse in places, with specialized tools,
+custom compilers, and advanced hardware features. It's for a specific
+type of programmer - an /operator/ if you will, who may use it for
+rapid-development of their own programs (or companies). The barrier to
+entry is high.
 
-In addition to software, I'm build a robust infrastructure to host our
-services, support our projects, and most importantly - consume
-information.
+At this stage, I'm interested in *systems*, *processes*, and
+*protocols* - not *products* and *services*. /The Compiler Company/'s
+most valuable assett its ideas. A /demo/ system is being written which
+serves as a reference implementation but this is currently designed
+for internal benchmarking.
 
-Something that is missing from many organizations big or large, is an
-effective way to store and access information, even about their own
-org.
-
-It can be difficult problem to solve - usually there's the official
-one, say Microsoft Sharepoint and then the list of unofficial sources
-which becomes tribal corporate hacker knowledge. Maybe the unofficial
-ones are more current, or are annotated nicely, but their very
-existence breaks the system. There's no longer a single source of
-truth.
-
-My priority in this department is writing services which process and
-store information from a variety of sources in a distributed knowledge
-graph. The graph can later be queried to access information on-demand.
-
-My idea of infrastructure is in fact to build my own Cloud. Needless
-to say I don't have an O365 subscription, and wherever possible I'll
-be relying on hardware I have physical access to. I'm not opposed to
-cloud services at large but based on principle I like to think we
-shouldn't be built on them.
-
-* Next Steps
-We have a long way to go. The important thing is to keep up the
-momentum. Before the start of 2024 you can expect another update on
-the projects below.
 ** [[https://compiler.company/docs/core][core]]
+The =core= is a collection of applications and libraries built from
+the bottom-up with modularity in mind. It's primarily written in
+Common Lisp and Rust with minimal external dependencies.
+
+*Lisp* is a first-class citizen of our internal environment. We
+currently rely on the Steel Bank Common Lisp compiler but even if we
+switch to a different implementation there will always be Lisp. It's
+our dedicated high-level programming language (and much more, as we'll
+explain later).
+
+*Rust* is second-class. It meets an arbitrary criteria for what I
+would consider /good enough/ but there are many contenders including
+C, C++, and Zig. It helps fill the gaps in our Lisp environment which
+would be extremely difficult to implement from scratch like
+eliminating GC, compile-time type safety, cross-compilation features,
+and advanced networking protocols. The community support and my
+personal experience with the language are also contributing
+factors. The trade-off is that we need to support another language
+environment in parallel to Lisp.
+
 ** [[https://compiler.company/docs/infra][infra]]
-** [[https://compiler.company/docs/nas-t][nas-t]]
+Unfortunately, ideas can't host themselves. We need a robust
+infrastructure to compensate for this. The project =infra= contains
+scripts for building and maintaing the entire corporate
+infrastructure.
+
+We typically host services on Arch Linux. Podman and QEMU are used for
+virtualization. Modules can be built and deployed separately to make
+host-migration easier as we expand.
